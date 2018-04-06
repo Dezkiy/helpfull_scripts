@@ -1,0 +1,317 @@
+graph {
+	graph [bgcolor="#333333" fontcolor=white rankdir=BT]
+	node [color="#006699" fillcolor="#006699" fontcolor=white fontname=Helvetica margin=0.2 shape=ellipse style=filled]
+	edge [arrowhead=open color=red fontcolor=white fontname=Helvetica fontsize=14 style=bold]
+	"RouterBS-253"
+	"RouterBS-121"
+	"RouterBS-123"
+	"RouterBS-357"
+	"RouterBS-301"
+	"RouterBS-251"
+	"khb-tet-lan1"
+	"RouterBS-248"
+	"RouterBS-250"
+	"RouterBS-122"
+	"RouterBS-125"
+	"RouterBS-113"
+	"RouterBS-130"
+	"RouterBS-242"
+	"RouterBS-118"
+	"RouterBS-239"
+	"RouterBS-117"
+	"RouterBS-128"
+	"CentralRouter-3"
+	"RouterBS-359"
+	"RouterBS-119"
+	"RouterBS-135"
+	"RouterBS-306"
+	"RouterBS-155"
+	"RouterBS-302"
+	"RouterBS-252"
+	"RouterBS-109"
+	"RouterBS-129"
+	"RouterBS-361"
+	"RouterBS-114"
+	"RouterBS-240"
+	"RouterBS-360"
+	"RouterBS-107"
+	"RouterBS-111"
+	"RouterBS-124"
+	"RouterBS-126"
+	"RouterBS-263"
+	"RouterBS-241"
+	"RouterGW_GDSH.kgdu"
+	"RouterBS-258"
+	"RouterBS-363"
+	"RouterBS-246"
+	"CentralRouter-2"
+	"CentralRouter-1"
+	"RouterBS-115"
+	"RouterBS-127"
+	"RouterBS-134"
+	"RouterBS-262"
+	"RouterBS-259"
+	"RouterBS-303"
+	"RouterBS-136"
+	"RouterBS-137"
+	"RouterBS-356"
+	"RouterBS-133"
+	"RouterBS-304"
+	Switch
+	"RouterBS-116"
+	"RouterBS-260"
+	"RouterBS-110"
+	"RouterBS-245"
+	"RouterBS-305"
+	"RouterBS-108"
+	"RouterBS-243"
+	"RouterBS-120"
+	"RouterBS-247"
+	"RouterDS-103"
+	"RouterBS-254"
+	"RouterBS-132"
+	"RouterBS-131"
+	"RouterBS-362"
+	"RouterBS-138"
+	"RouterBS-244"
+	"RouterBS-112"
+	"RouterBS-261"
+	"RouterBS-249"
+	"RouterDS-103" -- "CentralRouter-1" [label="            " headlabel="Ser0/1/0:1" taillabel="Ser0/0/0:1"]
+	"CentralRouter-1" -- "CentralRouter-2" [label="            " headlabel="Ser1/3:1" taillabel="Ser1/7:1"]
+	"CentralRouter-1" -- "CentralRouter-3" [label="            " headlabel="Ser1/3:1" taillabel="Ser1/3:1"]
+	"CentralRouter-1" -- "khb-tet-lan1" [label="            " headlabel="Gig0/52" taillabel="Gig4/0"]
+	"CentralRouter-1" -- "khb-tet-lan1" [label="            " headlabel="Gig0/51" taillabel="Gig4/1"]
+	"CentralRouter-1" -- "RouterBS-253" [label="            " headlabel="Ser0/0/0:0" taillabel="Ser1/6:1"]
+	"CentralRouter-1" -- "RouterBS-242" [label="            " headlabel="Ser0/0/1:0" taillabel="Ser1/4:7"]
+	"CentralRouter-1" -- "RouterBS-252" [label="            " headlabel="Ser0/0/0:0" taillabel="Ser1/5:5"]
+	"CentralRouter-1" -- "RouterBS-243" [label="            " headlabel="Ser0/0/0:0" taillabel="Ser1/4:8"]
+	"CentralRouter-1" -- "RouterBS-306" [label="            " headlabel="Ser0/0/1:0" taillabel="Ser1/0:3"]
+	"CentralRouter-1" -- "RouterBS-115" [label="            " headlabel="Ser0/0/1:1" taillabel="Ser1/1:1"]
+	"CentralRouter-1" -- "RouterBS-126" [label="            " headlabel="Ser0/0/1:0" taillabel="Ser1/2:2"]
+	"CentralRouter-1" -- "RouterBS-116" [label="            " headlabel="Ser0/0/1:1" taillabel="Ser1/1:2"]
+	"CentralRouter-1" -- "RouterBS-125" [label="            " headlabel="Ser0/0/1:0" taillabel="Ser1/2:1"]
+	"CentralRouter-1" -- "RouterBS-305" [label="            " headlabel="Ser0/0/1:0" taillabel="Ser1/0:2"]
+	"CentralRouter-1" -- "RouterBS-107" [label="            " headlabel="Ser0/0/1:0" taillabel="Ser1/0:6"]
+	"CentralRouter-1" -- "RouterBS-134" [label="            " headlabel="Ser0/0/1:0" taillabel="Ser1/4:3"]
+	"CentralRouter-1" -- "RouterBS-304" [label="            " headlabel="Ser0/0/1:0" taillabel="Ser1/0:1"]
+	"CentralRouter-1" -- "RouterBS-135" [label="            " headlabel="Ser0/0/0:0" taillabel="Ser1/4:4"]
+	"CentralRouter-1" -- "RouterBS-246" [label="            " headlabel="Ser0/0/0:0" taillabel="Ser1/5:1"]
+	"CentralRouter-1" -- "RouterBS-356" [label="            " headlabel="Ser0/0/1:0" taillabel="Ser1/1:8"]
+	"CentralRouter-1" -- "RouterBS-110" [label="            " headlabel="Ser0/0/1:1" taillabel="Ser1/0:4"]
+	"CentralRouter-1" -- "RouterBS-132" [label="            " headlabel="Ser0/0/0:0" taillabel="Ser1/4:1"]
+	"CentralRouter-1" -- "RouterBS-155" [label="            " headlabel="Ser0/0/1:0" taillabel="Ser1/2:6"]
+	"CentralRouter-1" -- "RouterBS-111" [label="            " headlabel="Ser0/0/1:1" taillabel="Ser1/0:5"]
+	"CentralRouter-1" -- "RouterBS-122" [label="            " headlabel="Ser0/0/1:0" taillabel="Ser1/1:7"]
+	"CentralRouter-1" -- "RouterBS-301" [label="            " headlabel="Ser0/0/1:0" taillabel="Ser1/2:5"]
+	"CentralRouter-1" -- "RouterBS-121" [label="            " headlabel="Ser0/0/1:1" taillabel="Ser1/1:6"]
+	"CentralRouter-1" -- "RouterBS-130" [label="            " headlabel="Ser0/0/1:0" taillabel="Ser1/2:3"]
+	"CentralRouter-1" -- "RouterBS-245" [label="            " headlabel="Ser0/0/0:0" taillabel="Ser1/5:2"]
+	"CentralRouter-1" -- "RouterBS-254" [label="            " headlabel="Ser0/0/1:0" taillabel="Ser1/6:2"]
+	"CentralRouter-1" -- "RouterBS-120" [label="            " headlabel="Ser0/0/1:1" taillabel="Ser1/1:5"]
+	"CentralRouter-1" -- "RouterBS-131" [label="            " headlabel="Ser0/0/1:0" taillabel="Ser1/4:2"]
+	"CentralRouter-1" -- "RouterBS-248" [label="            " headlabel="Ser0/0/0:0" taillabel="Ser1/5:3"]
+	"CentralRouter-1" -- "RouterBS-249" [label="            " headlabel="Ser0/0/0:0" taillabel="Ser1/5:4"]
+	"CentralRouter-1" -- "RouterBS-118" [label="            " headlabel="Ser0/0/1:1" taillabel="Ser1/1:3"]
+	"CentralRouter-1" -- "RouterBS-239" [label="            " headlabel="Ser0/0/0:0" taillabel="Ser1/4:6"]
+	"CentralRouter-1" -- "RouterBS-119" [label="            " headlabel="Ser0/0/1:1" taillabel="Ser1/1:4"]
+	"CentralRouter-1" -- "RouterBS-138" [label="            " headlabel="Ser0/0/1:0" taillabel="Ser1/4:5"]
+	"CentralRouter-1" -- "RouterBS-129" [label="            " headlabel="Ser0/0/1:0" taillabel="Ser1/2:4"]
+	"RouterBS-107" -- "CentralRouter-3" [label="            " headlabel="Ser1/0:1" taillabel="Ser0/0/0:0"]
+	"CentralRouter-2" -- "CentralRouter-3" [label="            " headlabel="Ser1/7:1" taillabel="Ser1/7:1"]
+	"CentralRouter-2" -- Switch [label="            " headlabel="Gig0/51" taillabel="Gig4/1"]
+	"CentralRouter-2" -- Switch [label="            " headlabel="Gig0/52" taillabel="Gig4/0"]
+	"CentralRouter-2" -- "RouterBS-242" [label="            " headlabel="Ser0/0/0:0" taillabel="Ser1/0:7"]
+	"CentralRouter-2" -- "RouterBS-253" [label="            " headlabel="Ser0/0/1:0" taillabel="Ser1/2:1"]
+	"CentralRouter-2" -- "RouterBS-137" [label="            " headlabel="Ser0/0/0:0" taillabel="Ser1/0:3"]
+	"CentralRouter-2" -- "RouterBS-252" [label="            " headlabel="Ser0/0/1:0" taillabel="Ser1/1:6"]
+	"CentralRouter-2" -- "RouterBS-134" [label="            " headlabel="Ser0/0/0:0" taillabel="Ser1/0:4"]
+	"CentralRouter-2" -- "RouterBS-251" [label="            " headlabel="Ser0/0/1:0" taillabel="Ser1/1:5"]
+	"CentralRouter-2" -- "RouterBS-241" [label="            " headlabel="Ser0/0/1:0" taillabel="Ser1/0:6"]
+	"CentralRouter-2" -- "RouterBS-263" [label="            " headlabel="Ser0/0/1:0" taillabel="Ser1/5:1"]
+	"CentralRouter-2" -- "RouterBS-133" [label="            " headlabel="Ser0/0/1:0" taillabel="Ser1/0:1"]
+	"CentralRouter-2" -- "RouterBS-247" [label="            " headlabel="Ser0/0/1:0" taillabel="Ser1/1:1"]
+	"CentralRouter-2" -- "RouterBS-244" [label="            " headlabel="Ser0/0/1:0" taillabel="Ser1/1:3"]
+	"CentralRouter-2" -- "RouterBS-131" [label="            " headlabel="Ser0/0/0:0" taillabel="Ser1/0:2"]
+	"CentralRouter-2" -- "RouterBS-245" [label="            " headlabel="Ser0/0/1:0" taillabel="Ser1/1:2"]
+	"CentralRouter-2" -- "RouterBS-254" [label="            " headlabel="Ser0/0/0:0" taillabel="Ser1/2:2"]
+	"CentralRouter-2" -- "RouterBS-248" [label="            " headlabel="Ser0/0/1:0" taillabel="Ser1/1:4"]
+	"CentralRouter-2" -- "RouterBS-258" [label="            " headlabel="Ser0/0/1:0" taillabel="Ser1/4:1"]
+	"CentralRouter-2" -- "RouterBS-138" [label="            " headlabel="Ser0/0/0:0" taillabel="Ser1/0:5"]
+	"CentralRouter-3" -- "CentralRouter-3" [label="            " headlabel="Ser1/5:1" taillabel="Ser1/5:1"]
+	"CentralRouter-3" -- Switch [label="            " headlabel="Gig0/51" taillabel="Gig4/1"]
+	"CentralRouter-3" -- Switch [label="            " headlabel="Gig0/52" taillabel="Gig4/0"]
+	"CentralRouter-3" -- "RouterBS-127" [label="            " headlabel="Ser0/0/0:0" taillabel="Ser1/2:4"]
+	"CentralRouter-3" -- "RouterBS-126" [label="            " headlabel="Ser0/0/0:0" taillabel="Ser1/2:3"]
+	"CentralRouter-3" -- "RouterBS-306" [label="            " headlabel="Ser0/0/0:0" taillabel="Ser1/0:3"]
+	"CentralRouter-3" -- "RouterBS-363" [label="            " headlabel="Ser0/0/0:0" taillabel="Ser1/4:1"]
+	"CentralRouter-3" -- "RouterBS-116" [label="            " headlabel="Ser0/0/0:1" taillabel="Ser1/1:2"]
+	"CentralRouter-3" -- "RouterBS-305" [label="            " headlabel="Ser0/0/0:0" taillabel="Ser1/0:2"]
+	"CentralRouter-3" -- "RouterBS-117" [label="            " headlabel="Ser0/0/0:1" taillabel="Ser1/1:1"]
+	"CentralRouter-3" -- "RouterBS-123" [label="            " headlabel="Ser0/0/0:0" taillabel="Ser1/1:6"]
+	"CentralRouter-3" -- "RouterBS-155" [label="            " headlabel="Ser0/0/0:0" taillabel="Ser1/2:8"]
+	"CentralRouter-3" -- "RouterBS-122" [label="            " headlabel="Ser0/0/0:0" taillabel="Ser1/2:1"]
+	"CentralRouter-3" -- "RouterBS-357" [label="            " headlabel="Ser0/0/0:0" taillabel="Ser1/2:2"]
+	"CentralRouter-3" -- "RouterBS-111" [label="            " headlabel="Ser0/0/0:1" taillabel="Ser1/0:5"]
+	"CentralRouter-3" -- "RouterBS-302" [label="            " headlabel="Ser0/0/0:0" taillabel="Ser1/2:6"]
+	"CentralRouter-3" -- "RouterBS-130" [label="            " headlabel="Ser0/0/0:0" taillabel="Ser1/2:5"]
+	"CentralRouter-3" -- "RouterBS-121" [label="            " headlabel="Ser0/0/0:1" taillabel="Ser1/1:5"]
+	"CentralRouter-3" -- "RouterBS-112" [label="            " headlabel="Ser0/0/0:1" taillabel="Ser1/0:6"]
+	"CentralRouter-3" -- "RouterBS-301" [label="            " headlabel="Ser0/0/0:0" taillabel="Ser1/2:7"]
+	"CentralRouter-3" -- "RouterBS-120" [label="            " headlabel="Ser0/0/0:1" taillabel="Ser1/1:4"]
+	"CentralRouter-3" -- "RouterBS-359" [label="            " headlabel="Ser0/0/1:0" taillabel="Ser2/0:1"]
+	"CentralRouter-3" -- "RouterBS-119" [label="            " headlabel="Ser0/0/0:1" taillabel="Ser1/1:3"]
+	"CentralRouter-3" -- "RouterBS-108" [label="            " headlabel="Ser0/0/0:1" taillabel="Ser1/0:4"]
+	"CentralRouter-3" -- "RouterGW_GDSH.kgdu" [label="            " headlabel="Ser0/0/0:0" taillabel="Ser1/6:1"]
+	"RouterBS-108" -- Switch [label="            " headlabel="Gig0/25" taillabel="Gig1/1"]
+	"RouterBS-108" -- Switch [label="            " headlabel="Gig0/26" taillabel="Gig1/0"]
+	"RouterBS-108" -- "RouterBS-109" [label="            " headlabel="Ser0/0/0:1" taillabel="Ser0/0/1:1"]
+	"RouterBS-110" -- Switch [label="            " headlabel="Gig0/25" taillabel="Gig1/1"]
+	"RouterBS-110" -- Switch [label="            " headlabel="Gig0/26" taillabel="Gig1/0"]
+	"RouterBS-110" -- "RouterBS-109" [label="            " headlabel="Ser0/0/1:1" taillabel="Ser0/0/0:1"]
+	"RouterBS-109" -- Switch [label="            " headlabel="Gig0/25" taillabel="Gig1/1"]
+	"RouterBS-109" -- Switch [label="            " headlabel="Gig0/26" taillabel="Gig1/0"]
+	"RouterBS-111" -- Switch [label="            " headlabel="Gig0/26" taillabel="Gig1/0"]
+	"RouterBS-111" -- Switch [label="            " headlabel="Gig0/25" taillabel="Gig1/1"]
+	"RouterBS-112" -- Switch [label="            " headlabel="Gig0/25" taillabel="Gig1/1"]
+	"RouterBS-112" -- Switch [label="            " headlabel="Gig0/26" taillabel="Gig1/0"]
+	"RouterBS-112" -- "RouterBS-113" [label="            " headlabel="Ser0/0/0:1" taillabel="Ser0/0/1:1"]
+	"RouterBS-113" -- Switch [label="            " headlabel="Gig0/25" taillabel="Gig1/1"]
+	"RouterBS-113" -- Switch [label="            " headlabel="Gig0/26" taillabel="Gig1/0"]
+	"RouterBS-113" -- "RouterBS-114" [label="            " headlabel="Ser0/0/0:1" taillabel="Ser0/0/1:1"]
+	"RouterBS-114" -- Switch [label="            " headlabel="Gig0/26" taillabel="Gig1/0"]
+	"RouterBS-114" -- Switch [label="            " headlabel="Gig0/25" taillabel="Gig1/1"]
+	"RouterBS-114" -- "RouterBS-115" [label="            " headlabel="Ser0/0/0:1" taillabel="Ser0/0/1:1"]
+	"RouterBS-117" -- Switch [label="            " headlabel="Gig0/25" taillabel="Gig1/1"]
+	"RouterBS-117" -- Switch [label="            " headlabel="Gig0/26" taillabel="Gig1/0"]
+	"RouterBS-117" -- "RouterBS-118" [label="            " headlabel="Ser0/0/0:1" taillabel="Ser0/0/1:1"]
+	"RouterBS-118" -- Switch [label="            " headlabel="Gig0/26" taillabel="Gig1/0"]
+	"RouterBS-118" -- Switch [label="            " headlabel="Gig0/25" taillabel="Gig1/1"]
+	"RouterBS-119" -- Switch [label="            " headlabel="Gig0/26" taillabel="Gig1/0"]
+	"RouterBS-119" -- Switch [label="            " headlabel="Gig0/25" taillabel="Gig1/1"]
+	"RouterBS-115" -- Switch [label="            " headlabel="Gig0/26" taillabel="Gig1/0"]
+	"RouterBS-115" -- Switch [label="            " headlabel="Gig0/25" taillabel="Gig1/1"]
+	"RouterBS-120" -- Switch [label="            " headlabel="Gig0/25" taillabel="Gig1/1"]
+	"RouterBS-120" -- Switch [label="            " headlabel="Gig0/26" taillabel="Gig1/0"]
+	"RouterBS-116" -- Switch [label="            " headlabel="Gig0/25" taillabel="Gig1/1"]
+	"RouterBS-116" -- Switch [label="            " headlabel="Gig0/26" taillabel="Gig1/0"]
+	"RouterBS-121" -- Switch [label="            " headlabel="Gig0/25" taillabel="Gig1/1"]
+	"RouterBS-121" -- Switch [label="            " headlabel="Gig0/26" taillabel="Gig1/0"]
+	"RouterBS-122" -- Switch [label="            " headlabel="Gig0/25" taillabel="Gig1/1"]
+	"RouterBS-122" -- Switch [label="            " headlabel="Gig0/26" taillabel="Gig1/0"]
+	"RouterBS-123" -- Switch [label="            " headlabel="Gig0/25" taillabel="Gig1/1"]
+	"RouterBS-123" -- Switch [label="            " headlabel="Gig0/26" taillabel="Gig1/0"]
+	"RouterBS-123" -- "RouterBS-124" [label="            " headlabel="Ser0/0/0:0" taillabel="Ser0/0/1:0"]
+	"RouterBS-124" -- Switch [label="            " headlabel="Gig0/25" taillabel="Gig1/1"]
+	"RouterBS-124" -- Switch [label="            " headlabel="Gig0/26" taillabel="Gig1/0"]
+	"RouterBS-124" -- "RouterBS-125" [label="            " headlabel="Ser0/0/0:0" taillabel="Ser0/0/1:0"]
+	"RouterBS-125" -- Switch [label="            " headlabel="Gig0/26" taillabel="Gig1/0"]
+	"RouterBS-125" -- Switch [label="            " headlabel="Gig0/25" taillabel="Gig1/1"]
+	"RouterBS-126" -- Switch [label="            " headlabel="Gig0/26" taillabel="Gig1/0"]
+	"RouterBS-126" -- Switch [label="            " headlabel="Gig0/25" taillabel="Gig1/1"]
+	"RouterBS-128" -- Switch [label="            " headlabel="Gig0/25" taillabel="Gig1/1"]
+	"RouterBS-128" -- Switch [label="            " headlabel="Gig0/26" taillabel="Gig1/0"]
+	"RouterBS-128" -- "RouterBS-127" [label="            " headlabel="Ser0/0/1:0" taillabel="Ser0/0/0:0"]
+	"RouterBS-128" -- "RouterBS-129" [label="            " headlabel="Ser0/0/0:0" taillabel="Ser0/0/1:0"]
+	"RouterBS-129" -- Switch [label="            " headlabel="Gig0/25" taillabel="Gig1/1"]
+	"RouterBS-129" -- Switch [label="            " headlabel="Gig0/26" taillabel="Gig1/0"]
+	"RouterBS-127" -- Switch [label="            " headlabel="Gig0/25" taillabel="Gig1/1"]
+	"RouterBS-127" -- Switch [label="            " headlabel="Gig0/26" taillabel="Gig1/0"]
+	"RouterBS-130" -- Switch [label="            " headlabel="Gig0/26" taillabel="Gig1/0"]
+	"RouterBS-130" -- Switch [label="            " headlabel="Gig0/25" taillabel="Gig1/1"]
+	"RouterBS-131" -- Switch [label="            " headlabel="Gig0/25" taillabel="Gig1/1"]
+	"RouterBS-131" -- Switch [label="            " headlabel="Gig0/26" taillabel="Gig1/0"]
+	"RouterBS-132" -- Switch [label="            " headlabel="Gig0/26" taillabel="Gig1/0"]
+	"RouterBS-132" -- Switch [label="            " headlabel="Gig0/25" taillabel="Gig1/1"]
+	"RouterBS-132" -- "RouterBS-133" [label="            " headlabel="Ser0/0/0:0" taillabel="Ser0/0/1:0"]
+	"RouterBS-134" -- Switch [label="            " headlabel="Gig0/25" taillabel="Gig1/1"]
+	"RouterBS-134" -- Switch [label="            " headlabel="Gig0/26" taillabel="Gig1/0"]
+	"RouterBS-133" -- Switch [label="            " headlabel="Gig0/25" taillabel="Gig1/1"]
+	"RouterBS-133" -- Switch [label="            " headlabel="Gig0/26" taillabel="Gig1/0"]
+	"RouterBS-135" -- Switch [label="            " headlabel="Gig0/26" taillabel="Gig1/0"]
+	"RouterBS-135" -- Switch [label="            " headlabel="Gig0/25" taillabel="Gig1/1"]
+	"RouterBS-135" -- "RouterBS-136" [label="            " headlabel="Ser0/0/0:0" taillabel="Ser0/0/1:0"]
+	"RouterBS-136" -- Switch [label="            " headlabel="Gig0/26" taillabel="Gig1/0"]
+	"RouterBS-136" -- Switch [label="            " headlabel="Gig0/25" taillabel="Gig1/1"]
+	"RouterBS-136" -- "RouterBS-137" [label="            " headlabel="Ser0/0/1:0" taillabel="Ser0/0/1:0"]
+	"RouterBS-137" -- Switch [label="            " headlabel="Gig0/26" taillabel="Gig1/0"]
+	"RouterBS-137" -- Switch [label="            " headlabel="Gig0/25" taillabel="Gig1/1"]
+	"RouterBS-239" -- Switch [label="            " headlabel="Gig0/26" taillabel="Gig1/0"]
+	"RouterBS-239" -- Switch [label="            " headlabel="Gig0/25" taillabel="Gig1/1"]
+	"RouterBS-239" -- "RouterBS-240" [label="            " headlabel="Ser0/0/0:0" taillabel="Ser0/0/1:0"]
+	"RouterBS-155" -- Switch [label="            " headlabel="Gig0/25" taillabel="Gig1/1"]
+	"RouterBS-155" -- Switch [label="            " headlabel="Gig0/26" taillabel="Gig1/0"]
+	"RouterBS-138" -- Switch [label="            " headlabel="Gig0/25" taillabel="Gig1/1"]
+	"RouterBS-138" -- Switch [label="            " headlabel="Gig0/26" taillabel="Gig1/0"]
+	"RouterBS-240" -- Switch [label="            " headlabel="Gig0/25" taillabel="Gig1/1"]
+	"RouterBS-240" -- Switch [label="            " headlabel="Gig0/26" taillabel="Gig1/0"]
+	"RouterBS-240" -- "RouterBS-241" [label="            " headlabel="Ser0/0/0:0" taillabel="Ser0/0/1:0"]
+	"RouterBS-241" -- Switch [label="            " headlabel="Gig0/25" taillabel="Gig1/1"]
+	"RouterBS-241" -- Switch [label="            " headlabel="Gig0/26" taillabel="Gig1/0"]
+	"RouterBS-243" -- Switch [label="            " headlabel="Gig0/25" taillabel="Gig1/1"]
+	"RouterBS-243" -- Switch [label="            " headlabel="Gig0/26" taillabel="Gig1/0"]
+	"RouterBS-243" -- "RouterBS-244" [label="            " headlabel="Ser0/0/0:0" taillabel="Ser0/0/1:0"]
+	"RouterBS-242" -- Switch [label="            " headlabel="Gig0/25" taillabel="Gig1/1"]
+	"RouterBS-242" -- Switch [label="            " headlabel="Gig0/26" taillabel="Gig1/0"]
+	"RouterBS-244" -- Switch [label="            " headlabel="Gig0/25" taillabel="Gig1/1"]
+	"RouterBS-244" -- Switch [label="            " headlabel="Gig0/26" taillabel="Gig1/0"]
+	"RouterBS-245" -- Switch [label="            " headlabel="Gig0/25" taillabel="Gig1/1"]
+	"RouterBS-245" -- Switch [label="            " headlabel="Gig0/26" taillabel="Gig1/0"]
+	"RouterBS-246" -- Switch [label="            " headlabel="Gig0/25" taillabel="Gig1/1"]
+	"RouterBS-246" -- Switch [label="            " headlabel="Gig0/26" taillabel="Gig1/0"]
+	"RouterBS-246" -- "RouterBS-247" [label="            " headlabel="Ser0/0/0:0" taillabel="Ser0/0/1:0"]
+	"RouterBS-247" -- Switch [label="            " headlabel="Gig0/26" taillabel="Gig1/0"]
+	"RouterBS-247" -- Switch [label="            " headlabel="Gig0/25" taillabel="Gig1/1"]
+	"RouterBS-249" -- Switch [label="            " headlabel="Gig0/26" taillabel="Gig1/0"]
+	"RouterBS-249" -- Switch [label="            " headlabel="Gig0/25" taillabel="Gig1/1"]
+	"RouterBS-249" -- "RouterBS-250" [label="            " headlabel="Ser0/0/0:0" taillabel="Ser0/0/1:0"]
+	"RouterBS-248" -- Switch [label="            " headlabel="Gig0/25" taillabel="Gig1/1"]
+	"RouterBS-248" -- Switch [label="            " headlabel="Gig0/26" taillabel="Gig1/0"]
+	"RouterBS-250" -- Switch [label="            " headlabel="Gig0/26" taillabel="Gig1/0"]
+	"RouterBS-250" -- Switch [label="            " headlabel="Gig0/25" taillabel="Gig1/1"]
+	"RouterBS-250" -- "RouterBS-251" [label="            " headlabel="Ser0/0/0:0" taillabel="Ser0/0/1:0"]
+	"RouterBS-251" -- Switch [label="            " headlabel="Gig0/25" taillabel="Gig1/1"]
+	"RouterBS-251" -- Switch [label="            " headlabel="Gig0/26" taillabel="Gig1/0"]
+	"RouterBS-252" -- Switch [label="            " headlabel="Gig0/25" taillabel="Gig1/1"]
+	"RouterBS-252" -- Switch [label="            " headlabel="Gig0/26" taillabel="Gig1/0"]
+	"RouterBS-254" -- Switch [label="            " headlabel="Gig0/25" taillabel="Gig1/1"]
+	"RouterBS-254" -- Switch [label="            " headlabel="Gig0/26" taillabel="Gig1/0"]
+	"RouterBS-253" -- Switch [label="            " headlabel="Gig0/25" taillabel="Gig1/1"]
+	"RouterBS-253" -- Switch [label="            " headlabel="Gig0/26" taillabel="Gig1/0"]
+	"RouterBS-259" -- Switch [label="            " headlabel="Gig0/25" taillabel="Gig1/1"]
+	"RouterBS-259" -- Switch [label="            " headlabel="Gig0/26" taillabel="Gig1/0"]
+	"RouterBS-259" -- "RouterBS-260" [label="            " headlabel="Ser0/0/0:0" taillabel="Ser0/0/1:0"]
+	"RouterBS-259" -- "RouterBS-258" [label="            " headlabel="Ser0/0/0:0" taillabel="Ser0/0/0:0"]
+	"RouterBS-260" -- Switch [label="            " headlabel="Gig0/26" taillabel="Gig1/0"]
+	"RouterBS-260" -- Switch [label="            " headlabel="Gig0/25" taillabel="Gig1/1"]
+	"RouterBS-260" -- "RouterBS-261" [label="            " headlabel="Ser0/0/0:0" taillabel="Ser0/0/1:0"]
+	"RouterBS-261" -- Switch [label="            " headlabel="Gig0/25" taillabel="Gig1/1"]
+	"RouterBS-261" -- Switch [label="            " headlabel="Gig0/26" taillabel="Gig1/0"]
+	"RouterBS-261" -- "RouterBS-262" [label="            " headlabel="Ser0/0/1:0" taillabel="Ser0/0/1:0"]
+	"RouterBS-263" -- Switch [label="            " headlabel="Gig0/25" taillabel="Gig1/1"]
+	"RouterBS-263" -- Switch [label="            " headlabel="Gig0/26" taillabel="Gig1/0"]
+	"RouterBS-263" -- "RouterBS-262" [label="            " headlabel="Ser0/0/0:0" taillabel="Ser0/0/0:0"]
+	"RouterBS-262" -- Switch [label="            " headlabel="Gig0/25" taillabel="Gig1/1"]
+	"RouterBS-262" -- Switch [label="            " headlabel="Gig0/26" taillabel="Gig1/0"]
+	"RouterBS-302" -- "RouterBS-303" [label="            " headlabel="Ser0/0/0:0" taillabel="Ser0/0/1:0"]
+	"RouterBS-303" -- "RouterBS-304" [label="            " headlabel="Ser0/0/0:0" taillabel="Ser0/0/1:0"]
+	"RouterBS-356" -- Switch [label="            " headlabel="Gig0/26" taillabel="Gig1/0"]
+	"RouterBS-356" -- Switch [label="            " headlabel="Gig0/25" taillabel="Gig1/1"]
+	"RouterBS-356" -- "RouterBS-357" [label="            " headlabel="Ser0/0/1:0" taillabel="Ser0/0/0:0"]
+	"RouterBS-359" -- Switch [label="            " headlabel="Gig0/25" taillabel="Gig1/1"]
+	"RouterBS-359" -- Switch [label="            " headlabel="Gig0/26" taillabel="Gig1/0"]
+	"RouterBS-359" -- "RouterBS-360" [label="            " headlabel="Ser0/0/1:0" taillabel="Ser0/0/0:0"]
+	"RouterBS-357" -- Switch [label="            " headlabel="Gig0/25" taillabel="Gig1/1"]
+	"RouterBS-357" -- Switch [label="            " headlabel="Gig0/26" taillabel="Gig1/0"]
+	"RouterBS-360" -- Switch [label="            " headlabel="Gig0/25" taillabel="Gig1/1"]
+	"RouterBS-360" -- Switch [label="            " headlabel="Gig0/26" taillabel="Gig1/0"]
+	"RouterBS-360" -- "RouterBS-361" [label="            " headlabel="Ser0/0/1:0" taillabel="Ser0/0/0:0"]
+	"RouterBS-361" -- Switch [label="            " headlabel="Gig0/25" taillabel="Gig1/1"]
+	"RouterBS-361" -- Switch [label="            " headlabel="Gig0/26" taillabel="Gig1/0"]
+	"RouterBS-361" -- "RouterBS-362" [label="            " headlabel="Ser0/0/1:0" taillabel="Ser0/0/0:0"]
+	"RouterBS-362" -- Switch [label="            " headlabel="Gig0/25" taillabel="Gig1/1"]
+	"RouterBS-362" -- Switch [label="            " headlabel="Gig0/26" taillabel="Gig1/0"]
+	"RouterBS-362" -- "RouterBS-363" [label="            " headlabel="Ser0/0/1:0" taillabel="Ser0/0/0:0"]
+	"RouterBS-363" -- Switch [label="            " headlabel="Gig0/25" taillabel="Gig1/1"]
+	"RouterBS-363" -- Switch [label="            " headlabel="Gig0/26" taillabel="Gig1/0"]
+}
