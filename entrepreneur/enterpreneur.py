@@ -1,9 +1,9 @@
 #!/bin/python
 # -*- coding: utf-8 -*-
 '''
-Задание 11.2a
 
-С помощью функции parse_cdp_neighbors из задания 11.1
+
+С помощью функции parse_cdp_neighbors из modul_parse
 и функции draw_topology из файла draw_network_graph.py
 сгенерировать топологию, которая соответствует выводу
 команды sh cdp neighbor из файлов:
@@ -15,7 +15,6 @@
 Не копировать код функций parse_cdp_neighbors и draw_topology.
 
 В итоге, должен быть сгенерировано изображение топологии.
-Результат должен выглядеть так же, как схема в файле task_11_2a_topology.svg
 '''
 from pprint import pprint
 from modul_parse import parse_cdp_neighbors

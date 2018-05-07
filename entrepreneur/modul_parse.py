@@ -1,8 +1,6 @@
 #!/usr/bin/python
 # -*- coding: utf-8 -*-
 '''
-Задание 11.1
-
 R4>show cdp neighbors
 вывод команды show cdp neighbors.
 Например, если как аргумент был передан такой вывод:
