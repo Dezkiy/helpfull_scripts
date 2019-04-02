@@ -1,0 +1,10 @@
+#!/usr/bin/python3
+import os
+path_to_folder='/mnt/c/Users/sam/Downloads/'
+
+for file in os.listdir(path_to_folder):
+    if '(' in file and '.torrent' in file:
+        print(file)
+        os.rename(path_to_folder+file, path_to_folder+file[:file.find('(')].rstrip()+file[-8:])
+else:
+    print ('Nothing to do')
