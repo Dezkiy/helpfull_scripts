@@ -1,0 +1,983 @@
+
+RouterDS-103 | SUCCESS | rc=0 >>
+
+Capability Codes: R - Router, T - Trans Bridge, B - Source Route Bridge
+                  S - Switch, H - Host, I - IGMP, r - Repeater, P - Phone,
+                  D - Remote, C - CVTA, M - Two-port Mac Relay
+
+Device ID        Local Intrfce     Holdtme    Capability  Platform  Port ID
+CentralRouter-1                 Ser 0/0/0:1        161            R S I  CISCO3945 Ser 0/1/0:1
+                 Shared connection to 172.16.20.198 closed.
+
+CentralRouter-1 | SUCCESS | rc=0 >>
+
+Capability Codes: R - Router, T - Trans Bridge, B - Source Route Bridge
+                  S - Switch, H - Host, I - IGMP, r - Repeater, P - Phone,
+                  D - Remote, C - CVTA, M - Two-port Mac Relay
+
+Device ID        Local Intrfce     Holdtme    Capability  Platform  Port ID
+CentralRouter-2                 Ser 1/7:1          168            R S I  CISCO3945 Ser 1/3:1
+CentralRouter-3                 Ser 1/3:1          145            R S I  CISCO3945 Ser 1/3:1
+khb-tet-lan1                 Gig 4/0            159             S I   SM-D-ES2- Gig 0/52
+khb-tet-lan1                 Gig 4/1            179             S I   SM-D-ES2- Gig 0/51
+Router-253                 Ser 1/6:1          171            R S I  CISCO2911 Ser 0/0/0:0
+Router-242                 Ser 1/4:7          132            R S I  CISCO2911 Ser 0/0/1:0
+RouterDS-103                 Ser 0/1/0:1        135            R S I  CISCO1921 Ser 0/0/0:1
+Router-252                 Ser 1/5:5          160            R S I  CISCO2911 Ser 0/0/0:0
+Router-243                 Ser 1/4:8          172            R S I  CISCO2911 Ser 0/0/0:0
+Router-306                 Ser 1/0:3          166           R T S I CISCO1921 Ser 0/0/1:0
+Router-115                 Ser 1/1:1          159            R S I  CISCO2911 Ser 0/0/1:1
+Router-126                 Ser 1/2:2          130            R S I  CISCO2911 Ser 0/0/1:0
+Router-116                 Ser 1/1:2          125            R S I  CISCO2911 Ser 0/0/1:1
+Router-125                 Ser 1/2:1          173            R S I  CISCO2911 Ser 0/0/1:0
+Router-305                 Ser 1/0:2          156           R T S I CISCO1921 Ser 0/0/1:0
+Router-107                 Ser 1/0:6          175           R T S I CISCO1921 Ser 0/0/1:0
+Router-134                 Ser 1/4:3          142            R S I  CISCO2911 Ser 0/0/1:0
+Router-304                 Ser 1/0:1          138           R T S I CISCO1921 Ser 0/0/1:0
+Router-135                 Ser 1/4:4          136            R S I  CISCO2911 Ser 0/0/0:0
+Router-246                 Ser 1/5:1          148            R S I  CISCO2911 Ser 0/0/0:0
+Router-356                 Ser 1/1:8          168            R S I  CISCO2911 Ser 0/0/1:0
+Router-110                 Ser 1/0:4          149            R S I  CISCO2911 Ser 0/0/1:1
+Router-132                 Ser 1/4:1          161            R S I  CISCO2911 Ser 0/0/0:0
+Router-155                 Ser 1/2:6          129            R S I  CISCO2911 Ser 0/0/1:0
+Router-111                 Ser 1/0:5          165            R S I  CISCO2911 Ser 0/0/1:1
+Router-122                 Ser 1/1:7          167            R S I  CISCO2911 Ser 0/0/1:0
+Router-301                 Ser 1/2:5          132           R T S I CISCO1921 Ser 0/0/1:0
+Router-121                 Ser 1/1:6          145            R S I  CISCO2911 Ser 0/0/1:1
+Router-130                 Ser 1/2:3          132            R S I  CISCO2911 Ser 0/0/1:0
+Router-245                 Ser 1/5:2          129            R S I  CISCO2911 Ser 0/0/0:0
+Router-254                 Ser 1/6:2          154            R S I  CISCO2911 Ser 0/0/1:0
+Router-120                 Ser 1/1:5          145            R S I  CISCO2911 Ser 0/0/1:1
+Router-131                 Ser 1/4:2          176            R S I  CISCO2911 Ser 0/0/1:0
+Router-248                 Ser 1/5:3          146            R S I  CISCO2911 Ser 0/0/0:0
+Router-249                 Ser 1/5:4          168            R S I  CISCO2911 Ser 0/0/0:0
+Router-118                 Ser 1/1:3          127            R S I  CISCO2911 Ser 0/0/1:1
+Router-239                 Ser 1/4:6          169            R S I  CISCO2911 Ser 0/0/0:0
+Router-119                 Ser 1/1:4          125            R S I  CISCO2911 Ser 0/0/1:1
+Router-138                 Ser 1/4:5          153            R S I  CISCO2911 Ser 0/0/1:0
+Router-129                 Ser 1/2:4          173            R S I  CISCO2911 Ser 0/0/1:0
+Shared connection to 172.16.28.62 closed.
+
+Router-107 | SUCCESS | rc=0 >>
+
+Capability Codes: R - Router, T - Trans Bridge, B - Source Route Bridge
+                  S - Switch, H - Host, I - IGMP, r - Repeater, P - Phone,
+                  D - Remote, C - CVTA, M - Two-port Mac Relay
+
+Device ID        Local Intrfce     Holdtme    Capability  Platform  Port ID
+CentralRouter-3                 Ser 0/0/0:0        171            R S I  CISCO3945 Ser 1/0:1
+CentralRouter-1                 Ser 0/0/1:0        143            R S I  CISCO3945 Ser 1/0:6
+                 Shared connection to 172.16.20.6 closed.
+
+CentralRouter-2 | SUCCESS | rc=0 >>
+
+Capability Codes: R - Router, T - Trans Bridge, B - Source Route Bridge
+                  S - Switch, H - Host, I - IGMP, r - Repeater, P - Phone,
+                  D - Remote, C - CVTA, M - Two-port Mac Relay
+
+Device ID        Local Intrfce     Holdtme    Capability  Platform  Port ID
+CentralRouter-3                 Ser 1/7:1          128            R S I  CISCO3945 Ser 1/7:1
+CentralRouter-1                 Ser 1/3:1          152            R S I  CISCO3945 Ser 1/7:1
+Switch           Gig 4/1            179             S I   SM-D-ES2- Gig 0/51
+Switch           Gig 4/0            145             S I   SM-D-ES2- Gig 0/52
+Router-242                 Ser 1/0:7          128            R S I  CISCO2911 Ser 0/0/0:0
+Router-253                 Ser 1/2:1          161            R S I  CISCO2911 Ser 0/0/1:0
+Router-137                 Ser 1/0:3          127            R S I  CISCO2911 Ser 0/0/0:0
+Router-252                 Ser 1/1:6          131            R S I  CISCO2911 Ser 0/0/1:0
+Router-134                 Ser 1/0:4          173            R S I  CISCO2911 Ser 0/0/0:0
+Router-251                 Ser 1/1:5          150            R S I  CISCO2911 Ser 0/0/1:0
+Router-241                 Ser 1/0:6          162            R S I  CISCO2911 Ser 0/0/1:0
+Router-263                 Ser 1/5:1          159            R S I  CISCO2911 Ser 0/0/1:0
+Router-133                 Ser 1/0:1          138            R S I  CISCO2911 Ser 0/0/1:0
+Router-247                 Ser 1/1:1          165            R S I  CISCO2911 Ser 0/0/1:0
+Router-244                 Ser 1/1:3          150            R S I  CISCO2911 Ser 0/0/1:0
+Router-131                 Ser 1/0:2          170            R S I  CISCO2911 Ser 0/0/0:0
+Router-245                 Ser 1/1:2          169            R S I  CISCO2911 Ser 0/0/1:0
+Router-254                 Ser 1/2:2          166            R S I  CISCO2911 Ser 0/0/0:0
+Router-248                 Ser 1/1:4          178            R S I  CISCO2911 Ser 0/0/1:0
+Router-258                 Ser 1/4:1          131           R B S I CISCO2911 Ser 0/0/1:0
+Router-138                 Ser 1/0:5          166            R S I  CISCO2911 Ser 0/0/0:0
+Shared connection to 172.16.12.62 closed.
+
+CentralRouter-3 | SUCCESS | rc=0 >>
+
+Capability Codes: R - Router, T - Trans Bridge, B - Source Route Bridge
+                  S - Switch, H - Host, I - IGMP, r - Repeater, P - Phone,
+                  D - Remote, C - CVTA, M - Two-port Mac Relay
+
+Device ID        Local Intrfce     Holdtme    Capability  Platform  Port ID
+CentralRouter-2                 Ser 1/7:1          129            R S I  CISCO3945 Ser 1/7:1
+CentralRouter-3                 Ser 1/5:1          177            R S I  CISCO3945 Ser 1/5:1
+CentralRouter-1                 Ser 1/3:1          172            R S I  CISCO3945 Ser 1/3:1
+Switch           Gig 4/1            174             S I   SM-D-ES2- Gig 0/51
+Switch           Gig 4/0            174             S I   SM-D-ES2- Gig 0/52
+Router-127                 Ser 1/2:4          165            R S I  CISCO2911 Ser 0/0/0:0
+Router-126                 Ser 1/2:3          169            R S I  CISCO2911 Ser 0/0/0:0
+Router-306                 Ser 1/0:3          137           R T S I CISCO1921 Ser 0/0/0:0
+Router-363                 Ser 1/4:1          147            R S I  CISCO2911 Ser 0/0/0:0
+Router-116                 Ser 1/1:2          141            R S I  CISCO2911 Ser 0/0/0:1
+Router-305                 Ser 1/0:2          141           R T S I CISCO1921 Ser 0/0/0:0
+Router-107                 Ser 1/0:1          150           R T S I CISCO1921 Ser 0/0/0:0
+Router-117                 Ser 1/1:1          129            R S I  CISCO2911 Ser 0/0/0:1
+Router-123                 Ser 1/1:6          175            R S I  CISCO2911 Ser 0/0/0:0
+Router-155                 Ser 1/2:8          161            R S I  CISCO2911 Ser 0/0/0:0
+Router-122                 Ser 1/2:1          132            R S I  CISCO2911 Ser 0/0/0:0
+Router-357                 Ser 1/2:2          151            R S I  CISCO2911 Ser 0/0/0:0
+Router-111                 Ser 1/0:5          166            R S I  CISCO2911 Ser 0/0/0:1
+Router-302                 Ser 1/2:6          163           R T S I CISCO1921 Ser 0/0/0:0
+Router-130                 Ser 1/2:5          138            R S I  CISCO2911 Ser 0/0/0:0
+Router-121                 Ser 1/1:5          157            R S I  CISCO2911 Ser 0/0/0:1
+Router-112                 Ser 1/0:6          163            R S I  CISCO2911 Ser 0/0/0:1
+Router-301                 Ser 1/2:7          179           R T S I CISCO1921 Ser 0/0/0:0
+Router-120                 Ser 1/1:4          149            R S I  CISCO2911 Ser 0/0/0:1
+Router-359                 Ser 2/0:1          170            R S I  CISCO2911 Ser 0/0/1:0
+Router-119                 Ser 1/1:3          138            R S I  CISCO2911 Ser 0/0/0:1
+Router-108                 Ser 1/0:4          175            R S I  CISCO2911 Ser 0/0/0:1
+RouterGW_GDSH.kgdu                 Ser 1/6:1          131            R S I  CISCO2911 Ser 0/0/0:0
+Shared connection to 172.16.4.62 closed.
+
+Router-108 | SUCCESS | rc=0 >>
+
+Capability Codes: R - Router, T - Trans Bridge, B - Source Route Bridge
+                  S - Switch, H - Host, I - IGMP, r - Repeater, P - Phone,
+                  D - Remote, C - CVTA, M - Two-port Mac Relay
+
+Device ID        Local Intrfce     Holdtme    Capability  Platform  Port ID
+CentralRouter-3                 Ser 0/0/0:1        141            R S I  CISCO3945 Ser 1/0:4
+Switch           Gig 1/1            145             S I   SM-ES2-24 Gig 0/25
+Switch           Gig 1/0            145             S I   SM-ES2-24 Gig 0/26
+Router-109                 Ser 0/0/1:1        138            R S I  CISCO2911 Ser 0/0/0:1
+                 Shared connection to 172.16.20.14 closed.
+
+Router-110 | SUCCESS | rc=0 >>
+
+Capability Codes: R - Router, T - Trans Bridge, B - Source Route Bridge
+                  S - Switch, H - Host, I - IGMP, r - Repeater, P - Phone,
+                  D - Remote, C - CVTA, M - Two-port Mac Relay
+
+Device ID        Local Intrfce     Holdtme    Capability  Platform  Port ID
+CentralRouter-1                 Ser 0/0/1:1        168            R S I  CISCO3945 Ser 1/0:4
+Switch           Gig 1/1            146             S I   SM-ES2-24 Gig 0/25
+Switch           Gig 1/0            146             S I   SM-ES2-24 Gig 0/26
+Router-109                 Ser 0/0/0:1        150            R S I  CISCO2911 Ser 0/0/1:1
+                 Shared connection to 172.16.20.30 closed.
+
+Router-109 | SUCCESS | rc=0 >>
+
+Capability Codes: R - Router, T - Trans Bridge, B - Source Route Bridge
+                  S - Switch, H - Host, I - IGMP, r - Repeater, P - Phone,
+                  D - Remote, C - CVTA, M - Two-port Mac Relay
+
+Device ID        Local Intrfce     Holdtme    Capability  Platform  Port ID
+Switch           Gig 1/1            179             S I   SM-ES2-24 Gig 0/25
+Switch           Gig 1/0            179             S I   SM-ES2-24 Gig 0/26
+Router-110                 Ser 0/0/1:1        147            R S I  CISCO2911 Ser 0/0/0:1
+Router-108                 Ser 0/0/0:1        159            R S I  CISCO2911 Ser 0/0/1:1
+                 Shared connection to 172.16.20.22 closed.
+
+Router-111 | SUCCESS | rc=0 >>
+
+Capability Codes: R - Router, T - Trans Bridge, B - Source Route Bridge
+                  S - Switch, H - Host, I - IGMP, r - Repeater, P - Phone,
+                  D - Remote, C - CVTA, M - Two-port Mac Relay
+
+Device ID        Local Intrfce     Holdtme    Capability  Platform  Port ID
+CentralRouter-3                 Ser 0/0/0:1        171            R S I  CISCO3945 Ser 1/0:5
+CentralRouter-1                 Ser 0/0/1:1        126            R S I  CISCO3945 Ser 1/0:5
+Switch           Gig 1/0            128             S I   SM-ES2-24 Gig 0/26
+Switch           Gig 1/1            128             S I   SM-ES2-24 Gig 0/25
+Shared connection to 172.16.20.38 closed.
+
+Router-112 | SUCCESS | rc=0 >>
+
+Capability Codes: R - Router, T - Trans Bridge, B - Source Route Bridge
+                  S - Switch, H - Host, I - IGMP, r - Repeater, P - Phone,
+                  D - Remote, C - CVTA, M - Two-port Mac Relay
+
+Device ID        Local Intrfce     Holdtme    Capability  Platform  Port ID
+CentralRouter-3                 Ser 0/0/0:1        139            R S I  CISCO3945 Ser 1/0:6
+Switch           Gig 1/1            168             S I   SM-ES2-24 Gig 0/25
+Switch           Gig 1/0            168             S I   SM-ES2-24 Gig 0/26
+Router-113                 Ser 0/0/1:1        168            R S I  CISCO2911 Ser 0/0/0:1
+                 Shared connection to 172.16.20.46 closed.
+
+Router-113 | SUCCESS | rc=0 >>
+
+Capability Codes: R - Router, T - Trans Bridge, B - Source Route Bridge
+                  S - Switch, H - Host, I - IGMP, r - Repeater, P - Phone,
+                  D - Remote, C - CVTA, M - Two-port Mac Relay
+
+Device ID        Local Intrfce     Holdtme    Capability  Platform  Port ID
+Switch           Gig 1/1            142             S I   SM-ES2-24 Gig 0/25
+Switch           Gig 1/0            142             S I   SM-ES2-24 Gig 0/26
+Router-114                 Ser 0/0/1:1        158            R S I  CISCO2911 Ser 0/0/0:1
+Router-112                 Ser 0/0/0:1        139            R S I  CISCO2911 Ser 0/0/1:1
+                 Shared connection to 172.16.20.54 closed.
+
+Router-114 | SUCCESS | rc=0 >>
+
+Capability Codes: R - Router, T - Trans Bridge, B - Source Route Bridge
+                  S - Switch, H - Host, I - IGMP, r - Repeater, P - Phone,
+                  D - Remote, C - CVTA, M - Two-port Mac Relay
+
+Device ID        Local Intrfce     Holdtme    Capability  Platform  Port ID
+Switch           Gig 1/0            176             S I   SM-ES2-24 Gig 0/26
+Switch           Gig 1/1            176             S I   SM-ES2-24 Gig 0/25
+Router-115                 Ser 0/0/1:1        135            R S I  CISCO2911 Ser 0/0/0:1
+Router-113                 Ser 0/0/0:1        179            R S I  CISCO2911 Ser 0/0/1:1
+                 Shared connection to 172.16.20.62 closed.
+
+Router-117 | SUCCESS | rc=0 >>
+
+Capability Codes: R - Router, T - Trans Bridge, B - Source Route Bridge
+                  S - Switch, H - Host, I - IGMP, r - Repeater, P - Phone,
+                  D - Remote, C - CVTA, M - Two-port Mac Relay
+
+Device ID        Local Intrfce     Holdtme    Capability  Platform  Port ID
+CentralRouter-3                 Ser 0/0/0:1        165            R S I  CISCO3945 Ser 1/1:1
+Switch           Gig 1/1            141             S I   SM-ES2-24 Gig 0/25
+Switch           Gig 1/0            141             S I   SM-ES2-24 Gig 0/26
+Router-118                 Ser 0/0/1:1        134            R S I  CISCO2911 Ser 0/0/0:1
+                 Shared connection to 172.16.20.86 closed.
+
+Router-118 | SUCCESS | rc=0 >>
+
+Capability Codes: R - Router, T - Trans Bridge, B - Source Route Bridge
+                  S - Switch, H - Host, I - IGMP, r - Repeater, P - Phone,
+                  D - Remote, C - CVTA, M - Two-port Mac Relay
+
+Device ID        Local Intrfce     Holdtme    Capability  Platform  Port ID
+CentralRouter-1                 Ser 0/0/1:1        171            R S I  CISCO3945 Ser 1/1:3
+Switch           Gig 1/0            150             S I   SM-ES2-24 Gig 0/26
+Switch           Gig 1/1            150             S I   SM-ES2-24 Gig 0/25
+Router-117                 Ser 0/0/0:1        152            R S I  CISCO2911 Ser 0/0/1:1
+                 Shared connection to 172.16.20.94 closed.
+
+Router-119 | SUCCESS | rc=0 >>
+
+Capability Codes: R - Router, T - Trans Bridge, B - Source Route Bridge
+                  S - Switch, H - Host, I - IGMP, r - Repeater, P - Phone,
+                  D - Remote, C - CVTA, M - Two-port Mac Relay
+
+Device ID        Local Intrfce     Holdtme    Capability  Platform  Port ID
+CentralRouter-3                 Ser 0/0/0:1        131            R S I  CISCO3945 Ser 1/1:3
+CentralRouter-1                 Ser 0/0/1:1        132            R S I  CISCO3945 Ser 1/1:4
+Switch           Gig 1/0            122             S I   SM-ES2-24 Gig 0/26
+Switch           Gig 1/1            122             S I   SM-ES2-24 Gig 0/25
+Shared connection to 172.16.20.102 closed.
+
+Router-115 | SUCCESS | rc=0 >>
+
+Capability Codes: R - Router, T - Trans Bridge, B - Source Route Bridge
+                  S - Switch, H - Host, I - IGMP, r - Repeater, P - Phone,
+                  D - Remote, C - CVTA, M - Two-port Mac Relay
+
+Device ID        Local Intrfce     Holdtme    Capability  Platform  Port ID
+CentralRouter-1                 Ser 0/0/1:1        177            R S I  CISCO3945 Ser 1/1:1
+Switch           Gig 1/0            148             S I   SM-ES2-24 Gig 0/26
+Switch           Gig 1/1            148             S I   SM-ES2-24 Gig 0/25
+Router-114                 Ser 0/0/0:1        162            R S I  CISCO2911 Ser 0/0/1:1
+                 Shared connection to 172.16.20.70 closed.
+
+Router-120 | SUCCESS | rc=0 >>
+
+Capability Codes: R - Router, T - Trans Bridge, B - Source Route Bridge
+                  S - Switch, H - Host, I - IGMP, r - Repeater, P - Phone,
+                  D - Remote, C - CVTA, M - Two-port Mac Relay
+
+Device ID        Local Intrfce     Holdtme    Capability  Platform  Port ID
+CentralRouter-3                 Ser 0/0/0:1        179            R S I  CISCO3945 Ser 1/1:4
+CentralRouter-1                 Ser 0/0/1:1        174            R S I  CISCO3945 Ser 1/1:5
+Switch           Gig 1/1            169             S I   SM-ES2-24 Gig 0/25
+Switch           Gig 1/0            169             S I   SM-ES2-24 Gig 0/26
+Shared connection to 172.16.20.110 closed.
+
+Router-116 | SUCCESS | rc=0 >>
+
+Capability Codes: R - Router, T - Trans Bridge, B - Source Route Bridge
+                  S - Switch, H - Host, I - IGMP, r - Repeater, P - Phone,
+                  D - Remote, C - CVTA, M - Two-port Mac Relay
+
+Device ID        Local Intrfce     Holdtme    Capability  Platform  Port ID
+CentralRouter-3                 Ser 0/0/0:1        175            R S I  CISCO3945 Ser 1/1:2
+CentralRouter-1                 Ser 0/0/1:1        176            R S I  CISCO3945 Ser 1/1:2
+Switch           Gig 1/1            179             S I   SM-ES2-24 Gig 0/25
+Switch           Gig 1/0            179             S I   SM-ES2-24 Gig 0/26
+Shared connection to 172.16.20.78 closed.
+
+Router-121 | SUCCESS | rc=0 >>
+
+Capability Codes: R - Router, T - Trans Bridge, B - Source Route Bridge
+                  S - Switch, H - Host, I - IGMP, r - Repeater, P - Phone,
+                  D - Remote, C - CVTA, M - Two-port Mac Relay
+
+Device ID        Local Intrfce     Holdtme    Capability  Platform  Port ID
+CentralRouter-3                 Ser 0/0/0:1        131            R S I  CISCO3945 Ser 1/1:5
+CentralRouter-1                 Ser 0/0/1:1        149            R S I  CISCO3945 Ser 1/1:6
+Switch           Gig 1/1            153             S I   SM-ES2-24 Gig 0/25
+Switch           Gig 1/0            153             S I   SM-ES2-24 Gig 0/26
+Shared connection to 172.16.20.118 closed.
+
+Router-122 | SUCCESS | rc=0 >>
+
+Capability Codes: R - Router, T - Trans Bridge, B - Source Route Bridge
+                  S - Switch, H - Host, I - IGMP, r - Repeater, P - Phone,
+                  D - Remote, C - CVTA, M - Two-port Mac Relay
+
+Device ID        Local Intrfce     Holdtme    Capability  Platform  Port ID
+CentralRouter-3                 Ser 0/0/0:0        159            R S I  CISCO3945 Ser 1/2:1
+CentralRouter-1                 Ser 0/0/1:0        134            R S I  CISCO3945 Ser 1/1:7
+Switch           Gig 1/1            150             S I   SM-ES2-24 Gig 0/25
+Switch           Gig 1/0            150             S I   SM-ES2-24 Gig 0/26
+Shared connection to 172.16.20.126 closed.
+
+Router-123 | SUCCESS | rc=0 >>
+
+Capability Codes: R - Router, T - Trans Bridge, B - Source Route Bridge
+                  S - Switch, H - Host, I - IGMP, r - Repeater, P - Phone,
+                  D - Remote, C - CVTA, M - Two-port Mac Relay
+
+Device ID        Local Intrfce     Holdtme    Capability  Platform  Port ID
+CentralRouter-3                 Ser 0/0/0:0        149            R S I  CISCO3945 Ser 1/1:6
+Switch           Gig 1/1            123             S I   SM-ES2-24 Gig 0/25
+Switch           Gig 1/0            123             S I   SM-ES2-24 Gig 0/26
+Router-124                 Ser 0/0/1:0        129            R S I  CISCO2911 Ser 0/0/0:0
+Shared connection to 172.16.20.150 closed.
+
+Router-124 | SUCCESS | rc=0 >>
+
+Capability Codes: R - Router, T - Trans Bridge, B - Source Route Bridge
+                  S - Switch, H - Host, I - IGMP, r - Repeater, P - Phone,
+                  D - Remote, C - CVTA, M - Two-port Mac Relay
+
+Device ID        Local Intrfce     Holdtme    Capability  Platform  Port ID
+Switch           Gig 1/1            138             S I   SM-ES2-24 Gig 0/25
+Switch           Gig 1/0            138             S I   SM-ES2-24 Gig 0/26
+Router-125                 Ser 0/0/1:0        166            R S I  CISCO2911 Ser 0/0/0:0
+Router-123                 Ser 0/0/0:0        151            R S I  CISCO2911 Ser 0/0/1:0
+Shared connection to 172.16.20.158 closed.
+
+Router-125 | SUCCESS | rc=0 >>
+
+Capability Codes: R - Router, T - Trans Bridge, B - Source Route Bridge
+                  S - Switch, H - Host, I - IGMP, r - Repeater, P - Phone,
+                  D - Remote, C - CVTA, M - Two-port Mac Relay
+
+Device ID        Local Intrfce     Holdtme    Capability  Platform  Port ID
+CentralRouter-1                 Ser 0/0/1:0        165            R S I  CISCO3945 Ser 1/2:1
+Switch           Gig 1/0            161             S I   SM-ES2-24 Gig 0/26
+Switch           Gig 1/1            161             S I   SM-ES2-24 Gig 0/25
+Router-124                 Ser 0/0/0:0        159            R S I  CISCO2911 Ser 0/0/1:0
+Shared connection to 172.16.20.166 closed.
+
+Router-126 | SUCCESS | rc=0 >>
+
+Capability Codes: R - Router, T - Trans Bridge, B - Source Route Bridge
+                  S - Switch, H - Host, I - IGMP, r - Repeater, P - Phone,
+                  D - Remote, C - CVTA, M - Two-port Mac Relay
+
+Device ID        Local Intrfce     Holdtme    Capability  Platform  Port ID
+CentralRouter-3                 Ser 0/0/0:0        173            R S I  CISCO3945 Ser 1/2:3
+CentralRouter-1                 Ser 0/0/1:0        146            R S I  CISCO3945 Ser 1/2:2
+Switch           Gig 1/0            168             S I   SM-ES2-24 Gig 0/26
+Switch           Gig 1/1            168             S I   SM-ES2-24 Gig 0/25
+Shared connection to 172.16.20.174 closed.
+
+Router-128 | SUCCESS | rc=0 >>
+
+Capability Codes: R - Router, T - Trans Bridge, B - Source Route Bridge
+                  S - Switch, H - Host, I - IGMP, r - Repeater, P - Phone,
+                  D - Remote, C - CVTA, M - Two-port Mac Relay
+
+Device ID        Local Intrfce     Holdtme    Capability  Platform  Port ID
+Switch           Gig 1/1            175             S I   SM-ES2-24 Gig 0/25
+Switch           Gig 1/0            175             S I   SM-ES2-24 Gig 0/26
+Router-127                 Ser 0/0/0:0        175            R S I  CISCO2911 Ser 0/0/1:0
+Router-129                 Ser 0/0/1:0        143            R S I  CISCO2911 Ser 0/0/0:0
+Shared connection to 172.16.20.190 closed.
+
+Router-129 | SUCCESS | rc=0 >>
+
+Capability Codes: R - Router, T - Trans Bridge, B - Source Route Bridge
+                  S - Switch, H - Host, I - IGMP, r - Repeater, P - Phone,
+                  D - Remote, C - CVTA, M - Two-port Mac Relay
+
+Device ID        Local Intrfce     Holdtme    Capability  Platform  Port ID
+CentralRouter-1                 Ser 0/0/1:0        168            R S I  CISCO3945 Ser 1/2:4
+Switch           Gig 1/1            131             S I   SM-ES2-24 Gig 0/25
+Switch           Gig 1/0            131             S I   SM-ES2-24 Gig 0/26
+Router-128                 Ser 0/0/0:0        158            R S I  CISCO2911 Ser 0/0/1:0
+Shared connection to 172.16.28.70 closed.
+
+Router-127 | SUCCESS | rc=0 >>
+
+Capability Codes: R - Router, T - Trans Bridge, B - Source Route Bridge
+                  S - Switch, H - Host, I - IGMP, r - Repeater, P - Phone,
+                  D - Remote, C - CVTA, M - Two-port Mac Relay
+
+Device ID        Local Intrfce     Holdtme    Capability  Platform  Port ID
+CentralRouter-3                 Ser 0/0/0:0        141            R S I  CISCO3945 Ser 1/2:4
+Switch           Gig 1/1            175             S I   SM-ES2-24 Gig 0/25
+Switch           Gig 1/0            175             S I   SM-ES2-24 Gig 0/26
+Router-128                 Ser 0/0/1:0        166            R S I  CISCO2911 Ser 0/0/0:0
+Shared connection to 172.16.20.182 closed.
+
+Router-130 | SUCCESS | rc=0 >>
+
+Capability Codes: R - Router, T - Trans Bridge, B - Source Route Bridge
+                  S - Switch, H - Host, I - IGMP, r - Repeater, P - Phone,
+                  D - Remote, C - CVTA, M - Two-port Mac Relay
+
+Device ID        Local Intrfce     Holdtme    Capability  Platform  Port ID
+CentralRouter-3                 Ser 0/0/0:0        145            R S I  CISCO3945 Ser 1/2:5
+CentralRouter-1                 Ser 0/0/1:0        140            R S I  CISCO3945 Ser 1/2:3
+Switch           Gig 1/0            137             S I   SM-ES2-24 Gig 0/26
+Switch           Gig 1/1            137             S I   SM-ES2-24 Gig 0/25
+Shared connection to 172.16.28.78 closed.
+
+Router-131 | SUCCESS | rc=0 >>
+
+Capability Codes: R - Router, T - Trans Bridge, B - Source Route Bridge
+                  S - Switch, H - Host, I - IGMP, r - Repeater, P - Phone,
+                  D - Remote, C - CVTA, M - Two-port Mac Relay
+
+Device ID        Local Intrfce     Holdtme    Capability  Platform  Port ID
+CentralRouter-2                 Ser 0/0/0:0        160            R S I  CISCO3945 Ser 1/0:2
+CentralRouter-1                 Ser 0/0/1:0        152            R S I  CISCO3945 Ser 1/4:2
+Switch           Gig 1/1            141             S I   SM-ES2-24 Gig 0/25
+Switch           Gig 1/0            141             S I   SM-ES2-24 Gig 0/26
+Shared connection to 172.16.28.94 closed.
+
+Router-132 | SUCCESS | rc=0 >>
+
+Capability Codes: R - Router, T - Trans Bridge, B - Source Route Bridge
+                  S - Switch, H - Host, I - IGMP, r - Repeater, P - Phone,
+                  D - Remote, C - CVTA, M - Two-port Mac Relay
+
+Device ID        Local Intrfce     Holdtme    Capability  Platform  Port ID
+CentralRouter-1                 Ser 0/0/0:0        177            R S I  CISCO3945 Ser 1/4:1
+Switch           Gig 1/0            129             S I   SM-ES2-24 Gig 0/26
+Switch           Gig 1/1            129             S I   SM-ES2-24 Gig 0/25
+Router-133                 Ser 0/0/1:0        155            R S I  CISCO2911 Ser 0/0/0:0
+Shared connection to 172.16.28.102 closed.
+
+Router-134 | SUCCESS | rc=0 >>
+
+Capability Codes: R - Router, T - Trans Bridge, B - Source Route Bridge
+                  S - Switch, H - Host, I - IGMP, r - Repeater, P - Phone,
+                  D - Remote, C - CVTA, M - Two-port Mac Relay
+
+Device ID        Local Intrfce     Holdtme    Capability  Platform  Port ID
+CentralRouter-2                 Ser 0/0/0:0        162            R S I  CISCO3945 Ser 1/0:4
+CentralRouter-1                 Ser 0/0/1:0        137            R S I  CISCO3945 Ser 1/4:3
+Switch           Gig 1/1            124             S I   SM-ES2-24 Gig 0/25
+Switch           Gig 1/0            124             S I   SM-ES2-24 Gig 0/26
+Shared connection to 172.16.28.118 closed.
+
+Router-133 | SUCCESS | rc=0 >>
+
+Capability Codes: R - Router, T - Trans Bridge, B - Source Route Bridge
+                  S - Switch, H - Host, I - IGMP, r - Repeater, P - Phone,
+                  D - Remote, C - CVTA, M - Two-port Mac Relay
+
+Device ID        Local Intrfce     Holdtme    Capability  Platform  Port ID
+CentralRouter-2                 Ser 0/0/1:0        135            R S I  CISCO3945 Ser 1/0:1
+Switch           Gig 1/1            142             S I   SM-ES2-24 Gig 0/25
+Switch           Gig 1/0            142             S I   SM-ES2-24 Gig 0/26
+Router-132                 Ser 0/0/0:0        130            R S I  CISCO2911 Ser 0/0/1:0
+Shared connection to 172.16.28.110 closed.
+
+Router-135 | SUCCESS | rc=0 >>
+
+Capability Codes: R - Router, T - Trans Bridge, B - Source Route Bridge
+                  S - Switch, H - Host, I - IGMP, r - Repeater, P - Phone,
+                  D - Remote, C - CVTA, M - Two-port Mac Relay
+
+Device ID        Local Intrfce     Holdtme    Capability  Platform  Port ID
+CentralRouter-1                 Ser 0/0/0:0        146            R S I  CISCO3945 Ser 1/4:4
+Switch           Gig 1/0            145             S I   SM-ES2-24 Gig 0/26
+Switch           Gig 1/1            145             S I   SM-ES2-24 Gig 0/25
+Router-136                 Ser 0/0/1:0        128            R S I  CISCO2911 Ser 0/0/0:0
+Shared connection to 172.16.28.126 closed.
+
+Router-136 | SUCCESS | rc=0 >>
+
+Capability Codes: R - Router, T - Trans Bridge, B - Source Route Bridge
+                  S - Switch, H - Host, I - IGMP, r - Repeater, P - Phone,
+                  D - Remote, C - CVTA, M - Two-port Mac Relay
+
+Device ID        Local Intrfce     Holdtme    Capability  Platform  Port ID
+Switch           Gig 1/0            179             S I   SM-ES2-24 Gig 0/26
+Switch           Gig 1/1            179             S I   SM-ES2-24 Gig 0/25
+Router-137                 Ser 0/0/1:0        136            R S I  CISCO2911 Ser 0/0/1:0
+Router-135                 Ser 0/0/0:0        179            R S I  CISCO2911 Ser 0/0/1:0
+Shared connection to 172.16.28.134 closed.
+
+Router-137 | SUCCESS | rc=0 >>
+
+Capability Codes: R - Router, T - Trans Bridge, B - Source Route Bridge
+                  S - Switch, H - Host, I - IGMP, r - Repeater, P - Phone,
+                  D - Remote, C - CVTA, M - Two-port Mac Relay
+
+Device ID        Local Intrfce     Holdtme    Capability  Platform  Port ID
+CentralRouter-2                 Ser 0/0/0:0        155            R S I  CISCO3945 Ser 1/0:3
+Switch           Gig 1/0            178             S I   SM-ES2-24 Gig 0/26
+Switch           Gig 1/1            178             S I   SM-ES2-24 Gig 0/25
+Router-136                 Ser 0/0/1:0        135            R S I  CISCO2911 Ser 0/0/1:0
+Shared connection to 172.16.28.142 closed.
+
+Router-239 | SUCCESS | rc=0 >>
+
+Capability Codes: R - Router, T - Trans Bridge, B - Source Route Bridge
+                  S - Switch, H - Host, I - IGMP, r - Repeater, P - Phone,
+                  D - Remote, C - CVTA, M - Two-port Mac Relay
+
+Device ID        Local Intrfce     Holdtme    Capability  Platform  Port ID
+CentralRouter-1                 Ser 0/0/0:0        150            R S I  CISCO3945 Ser 1/4:6
+Switch           Gig 1/0            160             S I   SM-ES2-24 Gig 0/26
+Switch           Gig 1/1            160             S I   SM-ES2-24 Gig 0/25
+Router-240                 Ser 0/0/1:0        159            R S I  CISCO2911 Ser 0/0/0:0
+Shared connection to 172.16.12.70 closed.
+
+Router-155 | SUCCESS | rc=0 >>
+
+Capability Codes: R - Router, T - Trans Bridge, B - Source Route Bridge
+                  S - Switch, H - Host, I - IGMP, r - Repeater, P - Phone,
+                  D - Remote, C - CVTA, M - Two-port Mac Relay
+
+Device ID        Local Intrfce     Holdtme    Capability  Platform  Port ID
+CentralRouter-3                 Ser 0/0/0:0        167            R S I  CISCO3945 Ser 1/2:8
+CentralRouter-1                 Ser 0/0/1:0        133            R S I  CISCO3945 Ser 1/2:6
+Switch           Gig 1/1            142             S I   SM-ES2-24 Gig 0/25
+Switch           Gig 1/0            142             S I   SM-ES2-24 Gig 0/26
+Shared connection to 172.16.28.86 closed.
+
+Router-138 | SUCCESS | rc=0 >>
+
+Capability Codes: R - Router, T - Trans Bridge, B - Source Route Bridge
+                  S - Switch, H - Host, I - IGMP, r - Repeater, P - Phone,
+                  D - Remote, C - CVTA, M - Two-port Mac Relay
+
+Device ID        Local Intrfce     Holdtme    Capability  Platform  Port ID
+CentralRouter-2                 Ser 0/0/0:0        175            R S I  CISCO3945 Ser 1/0:5
+CentralRouter-1                 Ser 0/0/1:0        137            R S I  CISCO3945 Ser 1/4:5
+Switch           Gig 1/1            154             S I   SM-ES2-24 Gig 0/25
+Switch           Gig 1/0            154             S I   SM-ES2-24 Gig 0/26
+Shared connection to 172.16.28.150 closed.
+
+Router-240 | SUCCESS | rc=0 >>
+
+Capability Codes: R - Router, T - Trans Bridge, B - Source Route Bridge
+                  S - Switch, H - Host, I - IGMP, r - Repeater, P - Phone,
+                  D - Remote, C - CVTA, M - Two-port Mac Relay
+
+Device ID        Local Intrfce     Holdtme    Capability  Platform  Port ID
+Switch           Gig 1/1            159             S I   SM-ES2-24 Gig 0/25
+Switch           Gig 1/0            159             S I   SM-ES2-24 Gig 0/26
+Router-241                 Ser 0/0/1:0        135            R S I  CISCO2911 Ser 0/0/0:0
+Router-239                 Ser 0/0/0:0        135            R S I  CISCO2911 Ser 0/0/1:0
+Shared connection to 172.16.12.78 closed.
+
+Router-241 | SUCCESS | rc=0 >>
+
+Capability Codes: R - Router, T - Trans Bridge, B - Source Route Bridge
+                  S - Switch, H - Host, I - IGMP, r - Repeater, P - Phone,
+                  D - Remote, C - CVTA, M - Two-port Mac Relay
+
+Device ID        Local Intrfce     Holdtme    Capability  Platform  Port ID
+CentralRouter-2                 Ser 0/0/1:0        130            R S I  CISCO3945 Ser 1/0:6
+Switch           Gig 1/1            173             S I   SM-ES2-24 Gig 0/25
+Switch           Gig 1/0            173             S I   SM-ES2-24 Gig 0/26
+Router-240                 Ser 0/0/0:0        156            R S I  CISCO2911 Ser 0/0/1:0
+Shared connection to 172.16.12.86 closed.
+
+Router-243 | SUCCESS | rc=0 >>
+
+Capability Codes: R - Router, T - Trans Bridge, B - Source Route Bridge
+                  S - Switch, H - Host, I - IGMP, r - Repeater, P - Phone,
+                  D - Remote, C - CVTA, M - Two-port Mac Relay
+
+Device ID        Local Intrfce     Holdtme    Capability  Platform  Port ID
+CentralRouter-1                 Ser 0/0/0:0        154            R S I  CISCO3945 Ser 1/4:8
+Switch           Gig 1/1            126             S I   SM-ES2-24 Gig 0/25
+Switch           Gig 1/0            126             S I   SM-ES2-24 Gig 0/26
+Router-244                 Ser 0/0/1:0        141            R S I  CISCO2911 Ser 0/0/0:0
+Shared connection to 172.16.12.102 closed.
+
+Router-242 | SUCCESS | rc=0 >>
+
+Capability Codes: R - Router, T - Trans Bridge, B - Source Route Bridge
+                  S - Switch, H - Host, I - IGMP, r - Repeater, P - Phone,
+                  D - Remote, C - CVTA, M - Two-port Mac Relay
+
+Device ID        Local Intrfce     Holdtme    Capability  Platform  Port ID
+CentralRouter-2                 Ser 0/0/0:0        168            R S I  CISCO3945 Ser 1/0:7
+CentralRouter-1                 Ser 0/0/1:0        170            R S I  CISCO3945 Ser 1/4:7
+Switch           Gig 1/1            121             S I   SM-ES2-24 Gig 0/25
+Switch           Gig 1/0            121             S I   SM-ES2-24 Gig 0/26
+Shared connection to 172.16.12.94 closed.
+
+Router-244 | SUCCESS | rc=0 >>
+
+Capability Codes: R - Router, T - Trans Bridge, B - Source Route Bridge
+                  S - Switch, H - Host, I - IGMP, r - Repeater, P - Phone,
+                  D - Remote, C - CVTA, M - Two-port Mac Relay
+
+Device ID        Local Intrfce     Holdtme    Capability  Platform  Port ID
+CentralRouter-2                 Ser 0/0/1:0        123            R S I  CISCO3945 Ser 1/1:3
+Switch           Gig 1/1            138             S I   SM-ES2-24 Gig 0/25
+Switch           Gig 1/0            138             S I   SM-ES2-24 Gig 0/26
+Router-243                 Ser 0/0/0:0        163            R S I  CISCO2911 Ser 0/0/1:0
+Shared connection to 172.16.12.110 closed.
+
+Router-245 | SUCCESS | rc=0 >>
+
+Capability Codes: R - Router, T - Trans Bridge, B - Source Route Bridge
+                  S - Switch, H - Host, I - IGMP, r - Repeater, P - Phone,
+                  D - Remote, C - CVTA, M - Two-port Mac Relay
+
+Device ID        Local Intrfce     Holdtme    Capability  Platform  Port ID
+CentralRouter-2                 Ser 0/0/1:0        142            R S I  CISCO3945 Ser 1/1:2
+CentralRouter-1                 Ser 0/0/0:0        165            R S I  CISCO3945 Ser 1/5:2
+Switch           Gig 1/1            167             S I   SM-ES2-24 Gig 0/25
+Switch           Gig 1/0            167             S I   SM-ES2-24 Gig 0/26
+Shared connection to 172.16.12.118 closed.
+
+Router-246 | SUCCESS | rc=0 >>
+
+Capability Codes: R - Router, T - Trans Bridge, B - Source Route Bridge
+                  S - Switch, H - Host, I - IGMP, r - Repeater, P - Phone,
+                  D - Remote, C - CVTA, M - Two-port Mac Relay
+
+Device ID        Local Intrfce     Holdtme    Capability  Platform  Port ID
+CentralRouter-1                 Ser 0/0/0:0        165            R S I  CISCO3945 Ser 1/5:1
+Switch           Gig 1/1            173             S I   SM-ES2-24 Gig 0/25
+Switch           Gig 1/0            173             S I   SM-ES2-24 Gig 0/26
+Router-247                 Ser 0/0/1:0        141            R S I  CISCO2911 Ser 0/0/0:0
+Shared connection to 172.16.12.126 closed.
+
+Router-247 | SUCCESS | rc=0 >>
+
+Capability Codes: R - Router, T - Trans Bridge, B - Source Route Bridge
+                  S - Switch, H - Host, I - IGMP, r - Repeater, P - Phone,
+                  D - Remote, C - CVTA, M - Two-port Mac Relay
+
+Device ID        Local Intrfce     Holdtme    Capability  Platform  Port ID
+CentralRouter-2                 Ser 0/0/1:0        127            R S I  CISCO3945 Ser 1/1:1
+Switch           Gig 1/0            150             S I   SM-ES2-24 Gig 0/26
+Switch           Gig 1/1            150             S I   SM-ES2-24 Gig 0/25
+Router-246                 Ser 0/0/0:0        137            R S I  CISCO2911 Ser 0/0/1:0
+Shared connection to 172.16.12.134 closed.
+
+Router-249 | SUCCESS | rc=0 >>
+
+Capability Codes: R - Router, T - Trans Bridge, B - Source Route Bridge
+                  S - Switch, H - Host, I - IGMP, r - Repeater, P - Phone,
+                  D - Remote, C - CVTA, M - Two-port Mac Relay
+
+Device ID        Local Intrfce     Holdtme    Capability  Platform  Port ID
+CentralRouter-1                 Ser 0/0/0:0        161            R S I  CISCO3945 Ser 1/5:4
+Switch           Gig 1/0            120             S I   SM-ES2-24 Gig 0/26
+Switch           Gig 1/1            120             S I   SM-ES2-24 Gig 0/25
+Router-250                 Ser 0/0/1:0        127            R S I  CISCO2911 Ser 0/0/0:0
+Shared connection to 172.16.12.150 closed.
+
+Router-248 | SUCCESS | rc=0 >>
+
+Capability Codes: R - Router, T - Trans Bridge, B - Source Route Bridge
+                  S - Switch, H - Host, I - IGMP, r - Repeater, P - Phone,
+                  D - Remote, C - CVTA, M - Two-port Mac Relay
+
+Device ID        Local Intrfce     Holdtme    Capability  Platform  Port ID
+CentralRouter-2                 Ser 0/0/1:0        130            R S I  CISCO3945 Ser 1/1:4
+CentralRouter-1                 Ser 0/0/0:0        149            R S I  CISCO3945 Ser 1/5:3
+Switch           Gig 1/1            171             S I   SM-ES2-24 Gig 0/25
+Switch           Gig 1/0            171             S I   SM-ES2-24 Gig 0/26
+Shared connection to 172.16.12.142 closed.
+
+Router-250 | SUCCESS | rc=0 >>
+
+Capability Codes: R - Router, T - Trans Bridge, B - Source Route Bridge
+                  S - Switch, H - Host, I - IGMP, r - Repeater, P - Phone,
+                  D - Remote, C - CVTA, M - Two-port Mac Relay
+
+Device ID        Local Intrfce     Holdtme    Capability  Platform  Port ID
+Switch           Gig 1/0            135             S I   SM-ES2-24 Gig 0/26
+Switch           Gig 1/1            135             S I   SM-ES2-24 Gig 0/25
+Router-251                 Ser 0/0/1:0        139            R S I  CISCO2911 Ser 0/0/0:0
+Router-249                 Ser 0/0/0:0        164            R S I  CISCO2911 Ser 0/0/1:0
+Shared connection to 172.16.12.158 closed.
+
+Router-251 | SUCCESS | rc=0 >>
+
+Capability Codes: R - Router, T - Trans Bridge, B - Source Route Bridge
+                  S - Switch, H - Host, I - IGMP, r - Repeater, P - Phone,
+                  D - Remote, C - CVTA, M - Two-port Mac Relay
+
+Device ID        Local Intrfce     Holdtme    Capability  Platform  Port ID
+CentralRouter-2                 Ser 0/0/1:0        160            R S I  CISCO3945 Ser 1/1:5
+Switch           Gig 1/1            128             S I   SM-ES2-24 Gig 0/25
+Switch           Gig 1/0            128             S I   SM-ES2-24 Gig 0/26
+Router-250                 Ser 0/0/0:0        148            R S I  CISCO2911 Ser 0/0/1:0
+Shared connection to 172.16.12.166 closed.
+
+Router-252 | SUCCESS | rc=0 >>
+
+Capability Codes: R - Router, T - Trans Bridge, B - Source Route Bridge
+                  S - Switch, H - Host, I - IGMP, r - Repeater, P - Phone,
+                  D - Remote, C - CVTA, M - Two-port Mac Relay
+
+Device ID        Local Intrfce     Holdtme    Capability  Platform  Port ID
+CentralRouter-2                 Ser 0/0/1:0        141            R S I  CISCO3945 Ser 1/1:6
+CentralRouter-1                 Ser 0/0/0:0        134            R S I  CISCO3945 Ser 1/5:5
+Switch           Gig 1/1            124             S I   SM-ES2-24 Gig 0/25
+Switch           Gig 1/0            124             S I   SM-ES2-24 Gig 0/26
+Shared connection to 172.16.12.174 closed.
+
+Router-254 | SUCCESS | rc=0 >>
+
+Capability Codes: R - Router, T - Trans Bridge, B - Source Route Bridge
+                  S - Switch, H - Host, I - IGMP, r - Repeater, P - Phone,
+                  D - Remote, C - CVTA, M - Two-port Mac Relay
+
+Device ID        Local Intrfce     Holdtme    Capability  Platform  Port ID
+CentralRouter-2                 Ser 0/0/0:0        160            R S I  CISCO3945 Ser 1/2:2
+CentralRouter-1                 Ser 0/0/1:0        130            R S I  CISCO3945 Ser 1/6:2
+Switch           Gig 1/1            132             S I   SM-ES2-24 Gig 0/25
+Switch           Gig 1/0            132             S I   SM-ES2-24 Gig 0/26
+Shared connection to 172.16.12.190 closed.
+
+Router-253 | SUCCESS | rc=0 >>
+
+Capability Codes: R - Router, T - Trans Bridge, B - Source Route Bridge
+                  S - Switch, H - Host, I - IGMP, r - Repeater, P - Phone,
+                  D - Remote, C - CVTA, M - Two-port Mac Relay
+
+Device ID        Local Intrfce     Holdtme    Capability  Platform  Port ID
+CentralRouter-2                 Ser 0/0/1:0        134            R S I  CISCO3945 Ser 1/2:1
+CentralRouter-1                 Ser 0/0/0:0        155            R S I  CISCO3945 Ser 1/6:1
+Switch           Gig 1/1            128             S I   SM-ES2-24 Gig 0/25
+Switch           Gig 1/0            128             S I   SM-ES2-24 Gig 0/26
+Shared connection to 172.16.12.182 closed.
+
+Router-259 | SUCCESS | rc=0 >>
+
+Capability Codes: R - Router, T - Trans Bridge, B - Source Route Bridge
+                  S - Switch, H - Host, I - IGMP, r - Repeater, P - Phone,
+                  D - Remote, C - CVTA, M - Two-port Mac Relay
+
+Device ID        Local Intrfce     Holdtme    Capability  Platform  Port ID
+Switch           Gig 1/1            120             S I   SM-ES2-24 Gig 0/25
+Switch           Gig 1/0            120             S I   SM-ES2-24 Gig 0/26
+Router-260                 Ser 0/0/1:0        163            R S I  CISCO2911 Ser 0/0/0:0
+Router-258                 Ser 0/0/0:0        158           R B S I CISCO2911 Ser 0/0/0:0
+Shared connection to 172.16.12.206 closed.
+
+Router-260 | SUCCESS | rc=0 >>
+
+Capability Codes: R - Router, T - Trans Bridge, B - Source Route Bridge
+                  S - Switch, H - Host, I - IGMP, r - Repeater, P - Phone,
+                  D - Remote, C - CVTA, M - Two-port Mac Relay
+
+Device ID        Local Intrfce     Holdtme    Capability  Platform  Port ID
+Switch           Gig 1/0            164             S I   SM-ES2-24 Gig 0/26
+Switch           Gig 1/1            164             S I   SM-ES2-24 Gig 0/25
+Router-261                 Ser 0/0/1:0        165            R S I  CISCO2911 Ser 0/0/0:0
+Router-259                 Ser 0/0/0:0        137            R S I  CISCO2911 Ser 0/0/1:0
+Shared connection to 172.16.12.214 closed.
+
+Router-261 | SUCCESS | rc=0 >>
+
+Capability Codes: R - Router, T - Trans Bridge, B - Source Route Bridge
+                  S - Switch, H - Host, I - IGMP, r - Repeater, P - Phone,
+                  D - Remote, C - CVTA, M - Two-port Mac Relay
+
+Device ID        Local Intrfce     Holdtme    Capability  Platform  Port ID
+Switch           Gig 1/1            122             S I   SM-ES2-24 Gig 0/25
+Switch           Gig 1/0            122             S I   SM-ES2-24 Gig 0/26
+Router-260                 Ser 0/0/0:0        143            R S I  CISCO2911 Ser 0/0/1:0
+Router-262                 Ser 0/0/1:0        159            R S I  CISCO2911 Ser 0/0/1:0
+Shared connection to 172.16.12.222 closed.
+
+Router-263 | SUCCESS | rc=0 >>
+
+Capability Codes: R - Router, T - Trans Bridge, B - Source Route Bridge
+                  S - Switch, H - Host, I - IGMP, r - Repeater, P - Phone,
+                  D - Remote, C - CVTA, M - Two-port Mac Relay
+
+Device ID        Local Intrfce     Holdtme    Capability  Platform  Port ID
+CentralRouter-2                 Ser 0/0/1:0        143            R S I  CISCO3945 Ser 1/5:1
+Switch           Gig 1/1            160             S I   SM-ES2-24 Gig 0/25
+Switch           Gig 1/0            160             S I   SM-ES2-24 Gig 0/26
+Router-262                 Ser 0/0/0:0        164            R S I  CISCO2911 Ser 0/0/0:0
+Shared connection to 172.16.12.238 closed.
+
+Router-262 | SUCCESS | rc=0 >>
+
+Capability Codes: R - Router, T - Trans Bridge, B - Source Route Bridge
+                  S - Switch, H - Host, I - IGMP, r - Repeater, P - Phone,
+                  D - Remote, C - CVTA, M - Two-port Mac Relay
+
+Device ID        Local Intrfce     Holdtme    Capability  Platform  Port ID
+Switch           Gig 1/1            134             S I   SM-ES2-24 Gig 0/25
+Switch           Gig 1/0            134             S I   SM-ES2-24 Gig 0/26
+Router-261                 Ser 0/0/1:0        146            R S I  CISCO2911 Ser 0/0/1:0
+Router-263                 Ser 0/0/0:0        127            R S I  CISCO2911 Ser 0/0/0:0
+Shared connection to 172.16.12.230 closed.
+
+Router-301 | SUCCESS | rc=0 >>
+
+Capability Codes: R - Router, T - Trans Bridge, B - Source Route Bridge
+                  S - Switch, H - Host, I - IGMP, r - Repeater, P - Phone,
+                  D - Remote, C - CVTA, M - Two-port Mac Relay
+
+Device ID        Local Intrfce     Holdtme    Capability  Platform  Port ID
+CentralRouter-3                 Ser 0/0/0:0        131            R S I  CISCO3945 Ser 1/2:7
+CentralRouter-1                 Ser 0/0/1:0        177            R S I  CISCO3945 Ser 1/2:5
+Shared connection to 172.16.4.118 closed.
+
+Router-302 | SUCCESS | rc=0 >>
+
+Capability Codes: R - Router, T - Trans Bridge, B - Source Route Bridge
+                  S - Switch, H - Host, I - IGMP, r - Repeater, P - Phone,
+                  D - Remote, C - CVTA, M - Two-port Mac Relay
+
+Device ID        Local Intrfce     Holdtme    Capability  Platform  Port ID
+CentralRouter-3                 Ser 0/0/0:0        176            R S I  CISCO3945 Ser 1/2:6
+Router-303                 Ser 0/0/1:0        153           R T S I CISCO1921 Ser 0/0/0:0
+Shared connection to 172.16.4.126 closed.
+
+Router-303 | SUCCESS | rc=0 >>
+
+Capability Codes: R - Router, T - Trans Bridge, B - Source Route Bridge
+                  S - Switch, H - Host, I - IGMP, r - Repeater, P - Phone,
+                  D - Remote, C - CVTA, M - Two-port Mac Relay
+
+Device ID        Local Intrfce     Holdtme    Capability  Platform  Port ID
+Router-304                 Ser 0/0/1:0        137           R T S I CISCO1921 Ser 0/0/0:0
+Router-302                 Ser 0/0/0:0        126           R T S I CISCO1921 Ser 0/0/1:0
+Shared connection to 172.16.4.134 closed.
+
+Router-304 | SUCCESS | rc=0 >>
+
+Capability Codes: R - Router, T - Trans Bridge, B - Source Route Bridge
+                  S - Switch, H - Host, I - IGMP, r - Repeater, P - Phone,
+                  D - Remote, C - CVTA, M - Two-port Mac Relay
+
+Device ID        Local Intrfce     Holdtme    Capability  Platform  Port ID
+CentralRouter-1                 Ser 0/0/1:0        177            R S I  CISCO3945 Ser 1/0:1
+Router-303                 Ser 0/0/0:0        126           R T S I CISCO1921 Ser 0/0/1:0
+Shared connection to 172.16.4.142 closed.
+
+Router-305 | SUCCESS | rc=0 >>
+
+Capability Codes: R - Router, T - Trans Bridge, B - Source Route Bridge
+                  S - Switch, H - Host, I - IGMP, r - Repeater, P - Phone,
+                  D - Remote, C - CVTA, M - Two-port Mac Relay
+
+Device ID        Local Intrfce     Holdtme    Capability  Platform  Port ID
+CentralRouter-3                 Ser 0/0/0:0        123            R S I  CISCO3945 Ser 1/0:2
+CentralRouter-1                 Ser 0/0/1:0        143            R S I  CISCO3945 Ser 1/0:2
+Shared connection to 172.16.4.150 closed.
+
+Router-306 | SUCCESS | rc=0 >>
+
+Capability Codes: R - Router, T - Trans Bridge, B - Source Route Bridge
+                  S - Switch, H - Host, I - IGMP, r - Repeater, P - Phone,
+                  D - Remote, C - CVTA, M - Two-port Mac Relay
+
+Device ID        Local Intrfce     Holdtme    Capability  Platform  Port ID
+CentralRouter-3                 Ser 0/0/0:0        161            R S I  CISCO3945 Ser 1/0:3
+CentralRouter-1                 Ser 0/0/1:0        128            R S I  CISCO3945 Ser 1/0:3
+Shared connection to 172.16.4.158 closed.
+
+Router-356 | SUCCESS | rc=0 >>
+
+Capability Codes: R - Router, T - Trans Bridge, B - Source Route Bridge
+                  S - Switch, H - Host, I - IGMP, r - Repeater, P - Phone,
+                  D - Remote, C - CVTA, M - Two-port Mac Relay
+
+Device ID        Local Intrfce     Holdtme    Capability  Platform  Port ID
+CentralRouter-1                 Ser 0/0/1:0        157            R S I  CISCO3945 Ser 1/1:8
+Switch           Gig 1/0            131             S I   SM-ES2-24 Gig 0/26
+Switch           Gig 1/1            131             S I   SM-ES2-24 Gig 0/25
+Router-357                 Ser 0/0/0:0        147            R S I  CISCO2911 Ser 0/0/1:0
+Shared connection to 172.16.20.134 closed.
+
+Router-359 | SUCCESS | rc=0 >>
+
+Capability Codes: R - Router, T - Trans Bridge, B - Source Route Bridge
+                  S - Switch, H - Host, I - IGMP, r - Repeater, P - Phone,
+                  D - Remote, C - CVTA, M - Two-port Mac Relay
+
+Device ID        Local Intrfce     Holdtme    Capability  Platform  Port ID
+CentralRouter-3                 Ser 0/0/1:0        132            R S I  CISCO3945 Ser 2/0:1
+Switch           Gig 1/1            174             S I   SM-ES2-24 Gig 0/25
+Switch           Gig 1/0            174             S I   SM-ES2-24 Gig 0/26
+Router-360                 Ser 0/0/0:0        124            R S I  CISCO2911 Ser 0/0/1:0
+Shared connection to 172.16.4.78 closed.
+
+Router-357 | SUCCESS | rc=0 >>
+
+Capability Codes: R - Router, T - Trans Bridge, B - Source Route Bridge
+                  S - Switch, H - Host, I - IGMP, r - Repeater, P - Phone,
+                  D - Remote, C - CVTA, M - Two-port Mac Relay
+
+Device ID        Local Intrfce     Holdtme    Capability  Platform  Port ID
+CentralRouter-3                 Ser 0/0/0:0        145            R S I  CISCO3945 Ser 1/2:2
+Switch           Gig 1/1            123             S I   SM-ES2-24 Gig 0/25
+Switch           Gig 1/0            123             S I   SM-ES2-24 Gig 0/26
+Router-356                 Ser 0/0/1:0        142            R S I  CISCO2911 Ser 0/0/0:0
+Shared connection to 172.16.20.142 closed.
+
+Router-360 | SUCCESS | rc=0 >>
+
+Capability Codes: R - Router, T - Trans Bridge, B - Source Route Bridge
+                  S - Switch, H - Host, I - IGMP, r - Repeater, P - Phone,
+                  D - Remote, C - CVTA, M - Two-port Mac Relay
+
+Device ID        Local Intrfce     Holdtme    Capability  Platform  Port ID
+Switch           Gig 1/1            125             S I   SM-ES2-24 Gig 0/25
+Switch           Gig 1/0            125             S I   SM-ES2-24 Gig 0/26
+Router-361                 Ser 0/0/0:0        160            R S I  CISCO2911 Ser 0/0/1:0
+Router-359                 Ser 0/0/1:0        135            R S I  CISCO2911 Ser 0/0/0:0
+Shared connection to 172.16.4.86 closed.
+
+Router-361 | SUCCESS | rc=0 >>
+
+Capability Codes: R - Router, T - Trans Bridge, B - Source Route Bridge
+                  S - Switch, H - Host, I - IGMP, r - Repeater, P - Phone,
+                  D - Remote, C - CVTA, M - Two-port Mac Relay
+
+Device ID        Local Intrfce     Holdtme    Capability  Platform  Port ID
+Switch           Gig 1/1            155             S I   SM-ES2-24 Gig 0/25
+Switch           Gig 1/0            155             S I   SM-ES2-24 Gig 0/26
+Router-360                 Ser 0/0/1:0        177            R S I  CISCO2911 Ser 0/0/0:0
+Router-362                 Ser 0/0/0:0        149            R S I  CISCO2911 Ser 0/0/1:0
+Shared connection to 172.16.4.94 closed.
+
+Router-362 | SUCCESS | rc=0 >>
+
+Capability Codes: R - Router, T - Trans Bridge, B - Source Route Bridge
+                  S - Switch, H - Host, I - IGMP, r - Repeater, P - Phone,
+                  D - Remote, C - CVTA, M - Two-port Mac Relay
+
+Device ID        Local Intrfce     Holdtme    Capability  Platform  Port ID
+Switch           Gig 1/1            166             S I   SM-ES2-24 Gig 0/25
+Switch           Gig 1/0            166             S I   SM-ES2-24 Gig 0/26
+Router-361                 Ser 0/0/1:0        173            R S I  CISCO2911 Ser 0/0/0:0
+Router-363                 Ser 0/0/0:0        163            R S I  CISCO2911 Ser 0/0/1:0
+Shared connection to 172.16.4.102 closed.
+
+Router-363 | SUCCESS | rc=0 >>
+
+Capability Codes: R - Router, T - Trans Bridge, B - Source Route Bridge
+                  S - Switch, H - Host, I - IGMP, r - Repeater, P - Phone,
+                  D - Remote, C - CVTA, M - Two-port Mac Relay
+
+Device ID        Local Intrfce     Holdtme    Capability  Platform  Port ID
+CentralRouter-3                 Ser 0/0/0:0        132            R S I  CISCO3945 Ser 1/4:1
+Switch           Gig 1/1            138             S I   SM-ES2-24 Gig 0/25
+Switch           Gig 1/0            138             S I   SM-ES2-24 Gig 0/26
+Router-362                 Ser 0/0/1:0        140            R S I  CISCO2911 Ser 0/0/0:0
+Shared connection to 172.16.4.110 closed.
