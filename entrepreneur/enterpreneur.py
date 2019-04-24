@@ -20,7 +20,7 @@ from pprint import pprint
 from modul_parse import parse_cdp_neighbors
 from draw_network_graph import draw_topology
 
-infiles = ['shv_tetra.txt']
+infiles = ['routers.txt']
 
 topology = {}
 
