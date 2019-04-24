@@ -6,11 +6,7 @@
 С помощью функции parse_cdp_neighbors из modul_parse
 и функции draw_topology из файла draw_network_graph.py
 сгенерировать топологию, которая соответствует выводу
-команды sh cdp neighbor из файлов:
-* sh_cdp_n_sw1.txt
-* sh_cdp_n_r1.txt
-* sh_cdp_n_r2.txt
-* sh_cdp_n_r3.txt
+команды sh cdp neighbor из файла 
 
 Не копировать код функций parse_cdp_neighbors и draw_topology.
 
